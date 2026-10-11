@@ -1,0 +1,173 @@
+{
+    "model_name": "Logistic Regression",
+    "target": "Addiction_Category",
+    "classes": [
+        "Low",
+        "Moderate",
+        "High"
+    ],
+    "features": [
+        {
+            "name": "Age",
+            "type": "number",
+            "default": 16.0,
+            "min": 13.0,
+            "max": 19.0
+        },
+        {
+            "name": "Gender",
+            "type": "category",
+            "options": [
+                "Female",
+                "Male",
+                "Other"
+            ],
+            "default": "Male"
+        },
+        {
+            "name": "School_Grade",
+            "type": "category",
+            "options": [
+                "10th",
+                "11th",
+                "12th",
+                "7th",
+                "8th",
+                "9th"
+            ],
+            "default": "12th"
+        },
+        {
+            "name": "Daily_Usage_Hours",
+            "type": "number",
+            "default": 5.0,
+            "min": 0.0,
+            "max": 11.5
+        },
+        {
+            "name": "Sleep_Hours",
+            "type": "number",
+            "default": 6.5,
+            "min": 3.0,
+            "max": 10.0
+        },
+        {
+            "name": "Academic_Performance",
+            "type": "number",
+            "default": 75.0,
+            "min": 50.0,
+            "max": 100.0
+        },
+        {
+            "name": "Social_Interactions",
+            "type": "number",
+            "default": 5.0,
+            "min": 0.0,
+            "max": 10.0
+        },
+        {
+            "name": "Exercise_Hours",
+            "type": "number",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 4.0
+        },
+        {
+            "name": "Anxiety_Level",
+            "type": "number",
+            "default": 6.0,
+            "min": 1.0,
+            "max": 10.0
+        },
+        {
+            "name": "Depression_Level",
+            "type": "number",
+            "default": 5.0,
+            "min": 1.0,
+            "max": 10.0
+        },
+        {
+            "name": "Self_Esteem",
+            "type": "number",
+            "default": 6.0,
+            "min": 1.0,
+            "max": 10.0
+        },
+        {
+            "name": "Parental_Control",
+            "type": "number",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 1.0
+        },
+        {
+            "name": "Screen_Time_Before_Bed",
+            "type": "number",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 2.6
+        },
+        {
+            "name": "Phone_Checks_Per_Day",
+            "type": "number",
+            "default": 82.0,
+            "min": 20.0,
+            "max": 150.0
+        },
+        {
+            "name": "Apps_Used_Daily",
+            "type": "number",
+            "default": 13.0,
+            "min": 5.0,
+            "max": 20.0
+        },
+        {
+            "name": "Time_on_Social_Media",
+            "type": "number",
+            "default": 2.5,
+            "min": 0.0,
+            "max": 5.0
+        },
+        {
+            "name": "Time_on_Gaming",
+            "type": "number",
+            "default": 1.5,
+            "min": 0.0,
+            "max": 4.0
+        },
+        {
+            "name": "Time_on_Education",
+            "type": "number",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 3.0
+        },
+        {
+            "name": "Phone_Usage_Purpose",
+            "type": "category",
+            "options": [
+                "Browsing",
+                "Education",
+                "Gaming",
+                "Other",
+                "Social Media"
+            ],
+            "default": "Browsing"
+        },
+        {
+            "name": "Family_Communication",
+            "type": "number",
+            "default": 5.0,
+            "min": 1.0,
+            "max": 10.0
+        },
+        {
+            "name": "Weekend_Usage_Hours",
+            "type": "number",
+            "default": 6.0,
+            "min": 0.0,
+            "max": 14.0
+        }
+    ],
+    "f1_macro": 0.9011141871443913
+}
