@@ -21,11 +21,8 @@ def load_model():
 try:
     model, metadata = load_model()
 except Exception as e:
-    st.error(
-        "Could not load the trained model. "
-        "Check that best_model.joblib and metadata.json "
-        "are in the same folder as app.py."
-    )
+    st.error(f"Model loading failed: {type(e).__name__}: {e}")
+    st.exception(e)
     st.stop()
 
 # ---------------- PAGE HEADER ----------------
